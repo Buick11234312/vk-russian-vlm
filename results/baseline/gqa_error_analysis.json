@@ -1,0 +1,1498 @@
+{
+  "overall": {
+    "total": 200,
+    "correct": 77,
+    "accuracy": 0.385,
+    "wrong": 123
+  },
+  "yes_no": {
+    "total": 65,
+    "correct": 41,
+    "accuracy": 0.6307692307692307,
+    "wrong": 24,
+    "polarity_flips": 17
+  },
+  "format_behavior": {
+    "predictions_longer_than_3_words": 6,
+    "predictions_with_latin_letters": 8
+  },
+  "by_detailed_type": [
+    {
+      "name": "relS",
+      "total": 24,
+      "correct": 4,
+      "accuracy": 0.16666666666666666
+    },
+    {
+      "name": "relO",
+      "total": 20,
+      "correct": 1,
+      "accuracy": 0.05
+    },
+    {
+      "name": "categoryRelS",
+      "total": 16,
+      "correct": 6,
+      "accuracy": 0.375
+    },
+    {
+      "name": "verifyAttrsC",
+      "total": 15,
+      "correct": 10,
+      "accuracy": 0.6666666666666666
+    },
+    {
+      "name": "categoryThat",
+      "total": 10,
+      "correct": 1,
+      "accuracy": 0.1
+    },
+    {
+      "name": "directOf",
+      "total": 7,
+      "correct": 2,
+      "accuracy": 0.2857142857142857
+    },
+    {
+      "name": "how",
+      "total": 6,
+      "correct": 2,
+      "accuracy": 0.3333333333333333
+    },
+    {
+      "name": "material",
+      "total": 6,
+      "correct": 2,
+      "accuracy": 0.3333333333333333
+    },
+    {
+      "name": "positionQuery",
+      "total": 6,
+      "correct": 2,
+      "accuracy": 0.3333333333333333
+    },
+    {
+      "name": "chooseAttr",
+      "total": 6,
+      "correct": 3,
+      "accuracy": 0.5
+    },
+    {
+      "name": "verifyAttrs",
+      "total": 5,
+      "correct": 3,
+      "accuracy": 0.6
+    },
+    {
+      "name": "categoryAttr",
+      "total": 4,
+      "correct": 1,
+      "accuracy": 0.25
+    },
+    {
+      "name": "categoryRelO",
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5
+    },
+    {
+      "name": "relVerify",
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5
+    },
+    {
+      "name": "relVerifyCo",
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5
+    },
+    {
+      "name": "existRelSC",
+      "total": 4,
+      "correct": 3,
+      "accuracy": 0.75
+    },
+    {
+      "name": "twoCommon",
+      "total": 3,
+      "correct": 0,
+      "accuracy": 0.0
+    },
+    {
+      "name": "directWhich",
+      "total": 3,
+      "correct": 1,
+      "accuracy": 0.3333333333333333
+    },
+    {
+      "name": "positionChoose",
+      "total": 3,
+      "correct": 1,
+      "accuracy": 0.3333333333333333
+    },
+    {
+      "name": "relChooser",
+      "total": 3,
+      "correct": 1,
+      "accuracy": 0.3333333333333333
+    },
+    {
+      "name": "category",
+      "total": 3,
+      "correct": 2,
+      "accuracy": 0.6666666666666666
+    },
+    {
+      "name": "existAttrOrC",
+      "total": 3,
+      "correct": 3,
+      "accuracy": 1.0
+    },
+    {
+      "name": "relVerifyCr",
+      "total": 2,
+      "correct": 0,
+      "accuracy": 0.0
+    },
+    {
+      "name": "twoDifferentC",
+      "total": 2,
+      "correct": 0,
+      "accuracy": 0.0
+    },
+    {
+      "name": "twoSame",
+      "total": 2,
+      "correct": 0,
+      "accuracy": 0.0
+    },
+    {
+      "name": "categoryRelOChoose",
+      "total": 2,
+      "correct": 1,
+      "accuracy": 0.5
+    },
+    {
+      "name": "place",
+      "total": 2,
+      "correct": 1,
+      "accuracy": 0.5
+    },
+    {
+      "name": "sameMaterialRelate",
+      "total": 2,
+      "correct": 1,
+      "accuracy": 0.5
+    },
+    {
+      "name": "twoSameC",
+      "total": 2,
+      "correct": 1,
+      "accuracy": 0.5
+    },
+    {
+      "name": "verifyAttrKC",
+      "total": 2,
+      "correct": 1,
+      "accuracy": 0.5
+    },
+    {
+      "name": "existThatOrC",
+      "total": 2,
+      "correct": 2,
+      "accuracy": 1.0
+    },
+    {
+      "name": "verifyAttr",
+      "total": 2,
+      "correct": 2,
+      "accuracy": 1.0
+    },
+    {
+      "name": "verifyAttrK",
+      "total": 2,
+      "correct": 2,
+      "accuracy": 1.0
+    },
+    {
+      "name": "activityWho",
+      "total": 1,
+      "correct": 0,
+      "accuracy": 0.0
+    },
+    {
+      "name": "categoryThis",
+      "total": 1,
+      "correct": 0,
+      "accuracy": 0.0
+    },
+    {
+      "name": "diffAnimalsC",
+      "total": 1,
+      "correct": 0,
+      "accuracy": 0.0
+    },
+    {
+      "name": "existAttrOr",
+      "total": 1,
+      "correct": 0,
+      "accuracy": 0.0
+    },
+    {
+      "name": "existRelSRC",
+      "total": 1,
+      "correct": 0,
+      "accuracy": 0.0
+    },
+    {
+      "name": "weather",
+      "total": 1,
+      "correct": 0,
+      "accuracy": 0.0
+    },
+    {
+      "name": "weatherVerify",
+      "total": 1,
+      "correct": 0,
+      "accuracy": 0.0
+    },
+    {
+      "name": "comparativeChoose",
+      "total": 1,
+      "correct": 1,
+      "accuracy": 1.0
+    },
+    {
+      "name": "existAnd",
+      "total": 1,
+      "correct": 1,
+      "accuracy": 1.0
+    },
+    {
+      "name": "existAndC",
+      "total": 1,
+      "correct": 1,
+      "accuracy": 1.0
+    },
+    {
+      "name": "existAttr",
+      "total": 1,
+      "correct": 1,
+      "accuracy": 1.0
+    },
+    {
+      "name": "existAttrNotC",
+      "total": 1,
+      "correct": 1,
+      "accuracy": 1.0
+    },
+    {
+      "name": "existOr",
+      "total": 1,
+      "correct": 1,
+      "accuracy": 1.0
+    },
+    {
+      "name": "existRelS",
+      "total": 1,
+      "correct": 1,
+      "accuracy": 1.0
+    },
+    {
+      "name": "materialChoose",
+      "total": 1,
+      "correct": 1,
+      "accuracy": 1.0
+    },
+    {
+      "name": "materialVerifyC",
+      "total": 1,
+      "correct": 1,
+      "accuracy": 1.0
+    },
+    {
+      "name": "twoSameMaterialC",
+      "total": 1,
+      "correct": 1,
+      "accuracy": 1.0
+    },
+    {
+      "name": "verifyAttrAnd",
+      "total": 1,
+      "correct": 1,
+      "accuracy": 1.0
+    },
+    {
+      "name": "verifyAttrC",
+      "total": 1,
+      "correct": 1,
+      "accuracy": 1.0
+    }
+  ],
+  "by_semantic_type": [
+    {
+      "name": "rel",
+      "total": 87,
+      "correct": 24,
+      "accuracy": 0.27586206896551724
+    },
+    {
+      "name": "attr",
+      "total": 78,
+      "correct": 37,
+      "accuracy": 0.47435897435897434
+    },
+    {
+      "name": "cat",
+      "total": 19,
+      "correct": 4,
+      "accuracy": 0.21052631578947367
+    },
+    {
+      "name": "obj",
+      "total": 12,
+      "correct": 11,
+      "accuracy": 0.9166666666666666
+    },
+    {
+      "name": "global",
+      "total": 4,
+      "correct": 1,
+      "accuracy": 0.25
+    }
+  ],
+  "by_structural_type": [
+    {
+      "name": "query",
+      "total": 116,
+      "correct": 28,
+      "accuracy": 0.2413793103448276
+    },
+    {
+      "name": "logical",
+      "total": 30,
+      "correct": 22,
+      "accuracy": 0.7333333333333333
+    },
+    {
+      "name": "verify",
+      "total": 27,
+      "correct": 17,
+      "accuracy": 0.6296296296296297
+    },
+    {
+      "name": "choose",
+      "total": 15,
+      "correct": 7,
+      "accuracy": 0.4666666666666667
+    },
+    {
+      "name": "compare",
+      "total": 12,
+      "correct": 3,
+      "accuracy": 0.25
+    }
+  ],
+  "gold_answer_stats": [
+    {
+      "gold": "нет",
+      "total": 43,
+      "correct": 27,
+      "accuracy": 0.627906976744186
+    },
+    {
+      "gold": "да",
+      "total": 22,
+      "correct": 14,
+      "accuracy": 0.6363636363636364
+    },
+    {
+      "gold": "справа",
+      "total": 6,
+      "correct": 1,
+      "accuracy": 0.16666666666666666
+    },
+    {
+      "gold": "слева",
+      "total": 4,
+      "correct": 3,
+      "accuracy": 0.75
+    },
+    {
+      "gold": "металл",
+      "total": 3,
+      "correct": 1,
+      "accuracy": 0.3333333333333333
+    },
+    {
+      "gold": "стул",
+      "total": 3,
+      "correct": 2,
+      "accuracy": 0.6666666666666666
+    },
+    {
+      "gold": "диван",
+      "total": 3,
+      "correct": 1,
+      "accuracy": 0.3333333333333333
+    },
+    {
+      "gold": "мальчик",
+      "total": 3,
+      "correct": 1,
+      "accuracy": 0.3333333333333333
+    },
+    {
+      "gold": "мужчина",
+      "total": 3,
+      "correct": 0,
+      "accuracy": 0.0
+    },
+    {
+      "gold": "кровать",
+      "total": 3,
+      "correct": 1,
+      "accuracy": 0.3333333333333333
+    },
+    {
+      "gold": "шторы",
+      "total": 2,
+      "correct": 0,
+      "accuracy": 0.0
+    },
+    {
+      "gold": "женщина",
+      "total": 2,
+      "correct": 1,
+      "accuracy": 0.5
+    },
+    {
+      "gold": "книжный шкаф",
+      "total": 2,
+      "correct": 1,
+      "accuracy": 0.5
+    },
+    {
+      "gold": "коричневый",
+      "total": 2,
+      "correct": 1,
+      "accuracy": 0.5
+    },
+    {
+      "gold": "в верхней",
+      "total": 2,
+      "correct": 0,
+      "accuracy": 0.0
+    },
+    {
+      "gold": "деревья",
+      "total": 2,
+      "correct": 0,
+      "accuracy": 0.0
+    },
+    {
+      "gold": "материал",
+      "total": 2,
+      "correct": 0,
+      "accuracy": 0.0
+    },
+    {
+      "gold": "полка",
+      "total": 2,
+      "correct": 0,
+      "accuracy": 0.0
+    },
+    {
+      "gold": "маленькое",
+      "total": 2,
+      "correct": 1,
+      "accuracy": 0.5
+    },
+    {
+      "gold": "письменный стол",
+      "total": 2,
+      "correct": 0,
+      "accuracy": 0.0
+    },
+    {
+      "gold": "кот",
+      "total": 2,
+      "correct": 2,
+      "accuracy": 1.0
+    },
+    {
+      "gold": "девочка",
+      "total": 2,
+      "correct": 0,
+      "accuracy": 0.0
+    },
+    {
+      "gold": "пластик",
+      "total": 1,
+      "correct": 1,
+      "accuracy": 1.0
+    },
+    {
+      "gold": "холодильник",
+      "total": 1,
+      "correct": 1,
+      "accuracy": 1.0
+    },
+    {
+      "gold": "платье",
+      "total": 1,
+      "correct": 1,
+      "accuracy": 1.0
+    },
+    {
+      "gold": "большие",
+      "total": 1,
+      "correct": 0,
+      "accuracy": 0.0
+    },
+    {
+      "gold": "черный",
+      "total": 1,
+      "correct": 0,
+      "accuracy": 0.0
+    },
+    {
+      "gold": "лопатка",
+      "total": 1,
+      "correct": 0,
+      "accuracy": 0.0
+    },
+    {
+      "gold": "экран",
+      "total": 1,
+      "correct": 0,
+      "accuracy": 0.0
+    },
+    {
+      "gold": "лошади",
+      "total": 1,
+      "correct": 0,
+      "accuracy": 0.0
+    },
+    {
+      "gold": "дорожный знак",
+      "total": 1,
+      "correct": 0,
+      "accuracy": 0.0
+    },
+    {
+      "gold": "скейтборда",
+      "total": 1,
+      "correct": 0,
+      "accuracy": 0.0
+    },
+    {
+      "gold": "постер",
+      "total": 1,
+      "correct": 0,
+      "accuracy": 0.0
+    },
+    {
+      "gold": "синий",
+      "total": 1,
+      "correct": 0,
+      "accuracy": 0.0
+    },
+    {
+      "gold": "спортсмен",
+      "total": 1,
+      "correct": 0,
+      "accuracy": 0.0
+    },
+    {
+      "gold": "облачно",
+      "total": 1,
+      "correct": 0,
+      "accuracy": 0.0
+    },
+    {
+      "gold": "яйца",
+      "total": 1,
+      "correct": 0,
+      "accuracy": 0.0
+    },
+    {
+      "gold": "картина",
+      "total": 1,
+      "correct": 1,
+      "accuracy": 1.0
+    },
+    {
+      "gold": "бэттер",
+      "total": 1,
+      "correct": 0,
+      "accuracy": 0.0
+    },
+    {
+      "gold": "зефир",
+      "total": 1,
+      "correct": 1,
+      "accuracy": 1.0
+    },
+    {
+      "gold": "кран",
+      "total": 1,
+      "correct": 0,
+      "accuracy": 0.0
+    },
+    {
+      "gold": "на двери",
+      "total": 1,
+      "correct": 0,
+      "accuracy": 0.0
+    },
+    {
+      "gold": "жёлтая",
+      "total": 1,
+      "correct": 0,
+      "accuracy": 0.0
+    },
+    {
+      "gold": "рубашка",
+      "total": 1,
+      "correct": 0,
+      "accuracy": 0.0
+    },
+    {
+      "gold": "очки",
+      "total": 1,
+      "correct": 0,
+      "accuracy": 0.0
+    },
+    {
+      "gold": "на мотоцикле",
+      "total": 1,
+      "correct": 0,
+      "accuracy": 0.0
+    },
+    {
+      "gold": "жираф",
+      "total": 1,
+      "correct": 1,
+      "accuracy": 1.0
+    },
+    {
+      "gold": "компьютер",
+      "total": 1,
+      "correct": 0,
+      "accuracy": 0.0
+    },
+    {
+      "gold": "твёрдый",
+      "total": 1,
+      "correct": 0,
+      "accuracy": 0.0
+    },
+    {
+      "gold": "из стекла",
+      "total": 1,
+      "correct": 0,
+      "accuracy": 0.0
+    },
+    {
+      "gold": "высокий",
+      "total": 1,
+      "correct": 1,
+      "accuracy": 1.0
+    },
+    {
+      "gold": "длинная",
+      "total": 1,
+      "correct": 0,
+      "accuracy": 0.0
+    },
+    {
+      "gold": "светлокоричневый",
+      "total": 1,
+      "correct": 0,
+      "accuracy": 0.0
+    },
+    {
+      "gold": "пульт управления",
+      "total": 1,
+      "correct": 0,
+      "accuracy": 0.0
+    },
+    {
+      "gold": "пастбище",
+      "total": 1,
+      "correct": 1,
+      "accuracy": 1.0
+    },
+    {
+      "gold": "столовые приборы",
+      "total": 1,
+      "correct": 0,
+      "accuracy": 0.0
+    },
+    {
+      "gold": "скейтборд",
+      "total": 1,
+      "correct": 0,
+      "accuracy": 0.0
+    },
+    {
+      "gold": "дорога",
+      "total": 1,
+      "correct": 0,
+      "accuracy": 0.0
+    },
+    {
+      "gold": "шкафы",
+      "total": 1,
+      "correct": 0,
+      "accuracy": 0.0
+    },
+    {
+      "gold": "на бейсбольный мяч",
+      "total": 1,
+      "correct": 0,
+      "accuracy": 0.0
+    },
+    {
+      "gold": "молода",
+      "total": 1,
+      "correct": 0,
+      "accuracy": 0.0
+    },
+    {
+      "gold": "декорация",
+      "total": 1,
+      "correct": 0,
+      "accuracy": 0.0
+    },
+    {
+      "gold": "окно",
+      "total": 1,
+      "correct": 0,
+      "accuracy": 0.0
+    },
+    {
+      "gold": "автобус",
+      "total": 1,
+      "correct": 1,
+      "accuracy": 1.0
+    },
+    {
+      "gold": "лампа",
+      "total": 1,
+      "correct": 0,
+      "accuracy": 0.0
+    },
+    {
+      "gold": "дама",
+      "total": 1,
+      "correct": 0,
+      "accuracy": 0.0
+    },
+    {
+      "gold": "бизон",
+      "total": 1,
+      "correct": 0,
+      "accuracy": 0.0
+    },
+    {
+      "gold": "плита",
+      "total": 1,
+      "correct": 0,
+      "accuracy": 0.0
+    },
+    {
+      "gold": "цвет",
+      "total": 1,
+      "correct": 0,
+      "accuracy": 0.0
+    },
+    {
+      "gold": "ракетку",
+      "total": 1,
+      "correct": 0,
+      "accuracy": 0.0
+    },
+    {
+      "gold": "с контроллером wii",
+      "total": 1,
+      "correct": 0,
+      "accuracy": 0.0
+    },
+    {
+      "gold": "куст",
+      "total": 1,
+      "correct": 0,
+      "accuracy": 0.0
+    },
+    {
+      "gold": "темная",
+      "total": 1,
+      "correct": 1,
+      "accuracy": 1.0
+    },
+    {
+      "gold": "журнальный столик",
+      "total": 1,
+      "correct": 0,
+      "accuracy": 0.0
+    },
+    {
+      "gold": "шкаф",
+      "total": 1,
+      "correct": 0,
+      "accuracy": 0.0
+    },
+    {
+      "gold": "фургон",
+      "total": 1,
+      "correct": 0,
+      "accuracy": 0.0
+    },
+    {
+      "gold": "щётку",
+      "total": 1,
+      "correct": 0,
+      "accuracy": 0.0
+    },
+    {
+      "gold": "из металла",
+      "total": 1,
+      "correct": 0,
+      "accuracy": 0.0
+    },
+    {
+      "gold": "на кровати",
+      "total": 1,
+      "correct": 0,
+      "accuracy": 0.0
+    },
+    {
+      "gold": "футболка",
+      "total": 1,
+      "correct": 0,
+      "accuracy": 0.0
+    },
+    {
+      "gold": "полный",
+      "total": 1,
+      "correct": 0,
+      "accuracy": 0.0
+    },
+    {
+      "gold": "клавиатура",
+      "total": 1,
+      "correct": 1,
+      "accuracy": 1.0
+    },
+    {
+      "gold": "блонд",
+      "total": 1,
+      "correct": 0,
+      "accuracy": 0.0
+    },
+    {
+      "gold": "белый",
+      "total": 1,
+      "correct": 1,
+      "accuracy": 1.0
+    },
+    {
+      "gold": "ноутбук",
+      "total": 1,
+      "correct": 1,
+      "accuracy": 1.0
+    },
+    {
+      "gold": "футболист",
+      "total": 1,
+      "correct": 0,
+      "accuracy": 0.0
+    },
+    {
+      "gold": "слон",
+      "total": 1,
+      "correct": 1,
+      "accuracy": 1.0
+    },
+    {
+      "gold": "духовка",
+      "total": 1,
+      "correct": 0,
+      "accuracy": 0.0
+    },
+    {
+      "gold": "стакан",
+      "total": 1,
+      "correct": 0,
+      "accuracy": 0.0
+    },
+    {
+      "gold": "галстук",
+      "total": 1,
+      "correct": 1,
+      "accuracy": 1.0
+    },
+    {
+      "gold": "с короткими",
+      "total": 1,
+      "correct": 0,
+      "accuracy": 0.0
+    },
+    {
+      "gold": "ловец",
+      "total": 1,
+      "correct": 0,
+      "accuracy": 0.0
+    },
+    {
+      "gold": "бейсбольную биту",
+      "total": 1,
+      "correct": 0,
+      "accuracy": 0.0
+    },
+    {
+      "gold": "маринованные огурцы",
+      "total": 1,
+      "correct": 0,
+      "accuracy": 0.0
+    },
+    {
+      "gold": "бумага",
+      "total": 1,
+      "correct": 1,
+      "accuracy": 1.0
+    },
+    {
+      "gold": "маленькая",
+      "total": 1,
+      "correct": 1,
+      "accuracy": 1.0
+    },
+    {
+      "gold": "на стуле",
+      "total": 1,
+      "correct": 0,
+      "accuracy": 0.0
+    },
+    {
+      "gold": "за слоном",
+      "total": 1,
+      "correct": 1,
+      "accuracy": 1.0
+    },
+    {
+      "gold": "тумбочка",
+      "total": 1,
+      "correct": 0,
+      "accuracy": 0.0
+    },
+    {
+      "gold": "большой",
+      "total": 1,
+      "correct": 0,
+      "accuracy": 0.0
+    },
+    {
+      "gold": "в блендере",
+      "total": 1,
+      "correct": 0,
+      "accuracy": 0.0
+    },
+    {
+      "gold": "красный",
+      "total": 1,
+      "correct": 1,
+      "accuracy": 1.0
+    },
+    {
+      "gold": "женщину",
+      "total": 1,
+      "correct": 0,
+      "accuracy": 0.0
+    },
+    {
+      "gold": "черные",
+      "total": 1,
+      "correct": 1,
+      "accuracy": 1.0
+    },
+    {
+      "gold": "к пальто",
+      "total": 1,
+      "correct": 0,
+      "accuracy": 0.0
+    }
+  ],
+  "example_errors": {
+    "general": [
+      {
+        "id": "201079951",
+        "question": "Что находится вокруг открытого окна?",
+        "gold": "шторы",
+        "prediction": "книги",
+        "detailed_type": "relS",
+        "semantic_type": "rel",
+        "structural_type": "query"
+      },
+      {
+        "id": "20618932",
+        "question": "Кто носит браслет?",
+        "gold": "женщина",
+        "prediction": "женщина в центре",
+        "detailed_type": "relS",
+        "semantic_type": "rel",
+        "structural_type": "query"
+      },
+      {
+        "id": "202231418",
+        "question": "Из какого материала сделан знак стоп на верхушке столба?",
+        "gold": "металл",
+        "prediction": "стекло",
+        "detailed_type": "material",
+        "semantic_type": "attr",
+        "structural_type": "query"
+      },
+      {
+        "id": "202162615",
+        "question": "Как называется черный предмет мебели?",
+        "gold": "книжный шкаф",
+        "prediction": "кровat",
+        "detailed_type": "categoryAttr",
+        "semantic_type": "cat",
+        "structural_type": "query"
+      },
+      {
+        "id": "201654361",
+        "question": "Есть ли лошади перед белым забором?",
+        "gold": "нет",
+        "prediction": "да",
+        "detailed_type": "existRelSRC",
+        "semantic_type": "rel",
+        "structural_type": "verify"
+      },
+      {
+        "id": "20785809",
+        "question": "Каковы размеры бетонной тротуарной дорожки?",
+        "gold": "большие",
+        "prediction": "10 feet x 20 feet",
+        "detailed_type": "how",
+        "semantic_type": "attr",
+        "structural_type": "query"
+      },
+      {
+        "id": "202241158",
+        "question": "Какого цвета стул справа от женщины?",
+        "gold": "черный",
+        "prediction": "синий",
+        "detailed_type": "directOf",
+        "semantic_type": "attr",
+        "structural_type": "query"
+      },
+      {
+        "id": "201624139",
+        "question": "Какой кухонный предмет не тёплый?",
+        "gold": "лопатка",
+        "prediction": "Сковорода",
+        "detailed_type": "categoryThat",
+        "semantic_type": "cat",
+        "structural_type": "query"
+      },
+      {
+        "id": "20783255",
+        "question": "Какое устройство находится справа от мужчины?",
+        "gold": "экран",
+        "prediction": "ноутбук",
+        "detailed_type": "categoryRelS",
+        "semantic_type": "rel",
+        "structural_type": "query"
+      },
+      {
+        "id": "201997239",
+        "question": "Из какого материала сделан стул?",
+        "gold": "металл",
+        "prediction": "кожа",
+        "detailed_type": "material",
+        "semantic_type": "attr",
+        "structural_type": "query"
+      },
+      {
+        "id": "20162468",
+        "question": "Какого цвета поле за забором?",
+        "gold": "коричневый",
+        "prediction": "Зеленый",
+        "detailed_type": "directWhich",
+        "semantic_type": "attr",
+        "structural_type": "query"
+      },
+      {
+        "id": "2062343",
+        "question": "Серф находится в нижней части или в верхней части изображения?",
+        "gold": "в верхней",
+        "prediction": "нижней",
+        "detailed_type": "positionChoose",
+        "semantic_type": "attr",
+        "structural_type": "choose"
+      },
+      {
+        "id": "201576559",
+        "question": "Что находится перед улицей?",
+        "gold": "деревья",
+        "prediction": "горы",
+        "detailed_type": "relO",
+        "semantic_type": "rel",
+        "structural_type": "query"
+      },
+      {
+        "id": "20622048",
+        "question": "Какое животное красивое?",
+        "gold": "лошади",
+        "prediction": "Лошадь",
+        "detailed_type": "categoryThat",
+        "semantic_type": "cat",
+        "structural_type": "query"
+      },
+      {
+        "id": "20655403",
+        "question": "Какой тип знака установлен на широком тротуаре?",
+        "gold": "дорожный знак",
+        "prediction": "остановка",
+        "detailed_type": "categoryRelS",
+        "semantic_type": "rel",
+        "structural_type": "query"
+      },
+      {
+        "id": "20984478",
+        "question": "Чего держится скейтер?",
+        "gold": "скейтборда",
+        "prediction": "Канализационный люк",
+        "detailed_type": "relO",
+        "semantic_type": "rel",
+        "structural_type": "query"
+      },
+      {
+        "id": "20866021",
+        "question": "Что висит на стене?",
+        "gold": "постер",
+        "prediction": "Плакат",
+        "detailed_type": "relS",
+        "semantic_type": "rel",
+        "structural_type": "query"
+      },
+      {
+        "id": "20306188",
+        "question": "Какого цвета свитер, который носит женщина?",
+        "gold": "синий",
+        "prediction": "голубой",
+        "detailed_type": "directOf",
+        "semantic_type": "attr",
+        "structural_type": "query"
+      },
+      {
+        "id": "201879231",
+        "question": "Кто носит кроссовки?",
+        "gold": "спортсмен",
+        "prediction": "Он",
+        "detailed_type": "relS",
+        "semantic_type": "rel",
+        "structural_type": "query"
+      },
+      {
+        "id": "20511394",
+        "question": "Какая погода?",
+        "gold": "облачно",
+        "prediction": "Ясная",
+        "detailed_type": "weather",
+        "semantic_type": "global",
+        "structural_type": "query"
+      }
+    ],
+    "yes_no_polarity_flips": [
+      {
+        "id": "201654361",
+        "question": "Есть ли лошади перед белым забором?",
+        "gold": "нет",
+        "prediction": "да",
+        "detailed_type": "existRelSRC",
+        "semantic_type": "rel",
+        "structural_type": "verify"
+      },
+      {
+        "id": "20330492",
+        "question": "Забор находится позади машины?",
+        "gold": "нет",
+        "prediction": "да",
+        "detailed_type": "relVerifyCr",
+        "semantic_type": "rel",
+        "structural_type": "verify"
+      },
+      {
+        "id": "201576980",
+        "question": "Деревья возле скалы низкие и зелёные?",
+        "gold": "нет",
+        "prediction": "да",
+        "detailed_type": "verifyAttrsC",
+        "semantic_type": "attr",
+        "structural_type": "logical"
+      },
+      {
+        "id": "201760654",
+        "question": "Рубашка выглядит бежевой и с короткими рукавами?",
+        "gold": "нет",
+        "prediction": "Да",
+        "detailed_type": "verifyAttrsC",
+        "semantic_type": "attr",
+        "structural_type": "logical"
+      },
+      {
+        "id": "201959575",
+        "question": "Облачно ли на этой фотографии?",
+        "gold": "да",
+        "prediction": "Нет",
+        "detailed_type": "weatherVerify",
+        "semantic_type": "global",
+        "structural_type": "verify"
+      },
+      {
+        "id": "202100774",
+        "question": "Стоят ли банки справа от кружек, которые стоят на плите?",
+        "gold": "да",
+        "prediction": "нет",
+        "detailed_type": "relVerify",
+        "semantic_type": "rel",
+        "structural_type": "verify"
+      },
+      {
+        "id": "202119721",
+        "question": "Отличается ли цвет стола от цвета пола?",
+        "gold": "нет",
+        "prediction": "да",
+        "detailed_type": "twoDifferentC",
+        "semantic_type": "attr",
+        "structural_type": "compare"
+      },
+      {
+        "id": "20894205",
+        "question": "Он носит перчатку?",
+        "gold": "нет",
+        "prediction": "да",
+        "detailed_type": "relVerifyCo",
+        "semantic_type": "rel",
+        "structural_type": "verify"
+      },
+      {
+        "id": "20381084",
+        "question": "Ковер такого же цвета, как растение?",
+        "gold": "да",
+        "prediction": "нет",
+        "detailed_type": "twoSame",
+        "semantic_type": "attr",
+        "structural_type": "compare"
+      },
+      {
+        "id": "202266110",
+        "question": "Подушки слева от неё квадратные и белые?",
+        "gold": "нет",
+        "prediction": "Да",
+        "detailed_type": "verifyAttrsC",
+        "semantic_type": "attr",
+        "structural_type": "logical"
+      },
+      {
+        "id": "20177485",
+        "question": "Цвет подноса и разделочной доски одинаковый?",
+        "gold": "нет",
+        "prediction": "Да",
+        "detailed_type": "twoSameC",
+        "semantic_type": "attr",
+        "structural_type": "compare"
+      },
+      {
+        "id": "2075931",
+        "question": "Озеро, которое кажется мокрым, выглядит спокойным?",
+        "gold": "нет",
+        "prediction": "Да",
+        "detailed_type": "verifyAttrKC",
+        "semantic_type": "attr",
+        "structural_type": "verify"
+      },
+      {
+        "id": "201303132",
+        "question": "У занавесок и чашек одинаковый цвет?",
+        "gold": "да",
+        "prediction": "нет",
+        "detailed_type": "twoSame",
+        "semantic_type": "attr",
+        "structural_type": "compare"
+      },
+      {
+        "id": "201997014",
+        "question": "Сидит ли человек, не являющийся женщиной, за партой?",
+        "gold": "нет",
+        "prediction": "Да",
+        "detailed_type": "relVerifyCo",
+        "semantic_type": "rel",
+        "structural_type": "verify"
+      },
+      {
+        "id": "201757653",
+        "question": "Есть ли бумажные стаканы или тарелки?",
+        "gold": "да",
+        "prediction": "нет",
+        "detailed_type": "existAttrOr",
+        "semantic_type": "obj",
+        "structural_type": "logical"
+      },
+      {
+        "id": "201175040",
+        "question": "Ожерелье выглядит серебристым и длинным?",
+        "gold": "нет",
+        "prediction": "Да",
+        "detailed_type": "verifyAttrsC",
+        "semantic_type": "attr",
+        "structural_type": "logical"
+      },
+      {
+        "id": "20118949",
+        "question": "Галстук имеет другой цвет, чем туфли?",
+        "gold": "нет",
+        "prediction": "да",
+        "detailed_type": "twoDifferentC",
+        "semantic_type": "attr",
+        "structural_type": "compare"
+      }
+    ],
+    "verbose_predictions": [
+      {
+        "id": "20785809",
+        "question": "Каковы размеры бетонной тротуарной дорожки?",
+        "gold": "большие",
+        "prediction": "10 feet x 20 feet",
+        "detailed_type": "how",
+        "semantic_type": "attr",
+        "structural_type": "query"
+      },
+      {
+        "id": "202053394",
+        "question": "Как вы думаете, на что смотрит бейсболист перед судьей?",
+        "gold": "на бейсбольный мяч",
+        "prediction": "Бейсболист смотрит на мяч.",
+        "detailed_type": "relO",
+        "semantic_type": "rel",
+        "structural_type": "query"
+      },
+      {
+        "id": "202107824",
+        "question": "Кто носит шляпу?",
+        "gold": "мальчик",
+        "prediction": "человек в правой части изображения",
+        "detailed_type": "relS",
+        "semantic_type": "rel",
+        "structural_type": "query"
+      },
+      {
+        "id": "202180317",
+        "question": "Кто наклоняется?",
+        "gold": "футболист",
+        "prediction": "Женщина в желтой форме",
+        "detailed_type": "activityWho",
+        "semantic_type": "cat",
+        "structural_type": "query"
+      },
+      {
+        "id": "202240220",
+        "question": "Кто стоит рядом с рубашкой, которая кажется сине-белой?",
+        "gold": "девочка",
+        "prediction": "Девушка в белых шортах и белой рубаш",
+        "detailed_type": "relS",
+        "semantic_type": "rel",
+        "structural_type": "query"
+      },
+      {
+        "id": "201757736",
+        "question": "На чем сидит человек справа от бутылки?",
+        "gold": "на стуле",
+        "prediction": "Нет информации о том, что человек сидит на чем-то.",
+        "detailed_type": "relO",
+        "semantic_type": "rel",
+        "structural_type": "query"
+      }
+    ],
+    "latin_predictions": [
+      {
+        "id": "202162615",
+        "question": "Как называется черный предмет мебели?",
+        "gold": "книжный шкаф",
+        "prediction": "кровat",
+        "detailed_type": "categoryAttr",
+        "semantic_type": "cat",
+        "structural_type": "query"
+      },
+      {
+        "id": "20785809",
+        "question": "Каковы размеры бетонной тротуарной дорожки?",
+        "gold": "большие",
+        "prediction": "10 feet x 20 feet",
+        "detailed_type": "how",
+        "semantic_type": "attr",
+        "structural_type": "query"
+      },
+      {
+        "id": "20752432",
+        "question": "Есть ли какие-нибудь лампы над белой стойкой?",
+        "gold": "нет",
+        "prediction": "no",
+        "detailed_type": "existRelSC",
+        "semantic_type": "rel",
+        "structural_type": "verify"
+      },
+      {
+        "id": "20306389",
+        "question": "Сидит ли человек слева от ноутбука рядом с подарком, который находится рядом с мужчиной?",
+        "gold": "да",
+        "prediction": "No",
+        "detailed_type": "relVerify",
+        "semantic_type": "rel",
+        "structural_type": "verify"
+      },
+      {
+        "id": "201336956",
+        "question": "Что использует мужчина?",
+        "gold": "скейтборд",
+        "prediction": "Skateboard",
+        "detailed_type": "relO",
+        "semantic_type": "rel",
+        "structural_type": "query"
+      },
+      {
+        "id": "201654437",
+        "question": "Тележка, которая находится слева от машины, металлическая и черная?",
+        "gold": "да",
+        "prediction": "false",
+        "detailed_type": "verifyAttrs",
+        "semantic_type": "attr",
+        "structural_type": "logical"
+      },
+      {
+        "id": "20857202",
+        "question": "На каком предмете мебели лежит порошок, на кровати или на книжном шкафу?",
+        "gold": "на кровати",
+        "prediction": "кровatia",
+        "detailed_type": "categoryRelOChoose",
+        "semantic_type": "rel",
+        "structural_type": "choose"
+      },
+      {
+        "id": "201030409",
+        "question": "Какой предмет мебели показан?",
+        "gold": "диван",
+        "prediction": "кровat",
+        "detailed_type": "category",
+        "semantic_type": "cat",
+        "structural_type": "query"
+      }
+    ]
+  }
+}
