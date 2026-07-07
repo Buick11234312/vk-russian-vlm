@@ -1,0 +1,586 @@
+{
+  "gqa_ru": {
+    "train": {
+      "rows": 40000,
+      "unique_question_ids": 39999,
+      "unique_image_ids": 27519,
+      "exact_duplicate_rows": 24,
+      "top_answers": [
+        {
+          "value": "нет",
+          "count": 7046
+        },
+        {
+          "value": "да",
+          "count": 7029
+        },
+        {
+          "value": "слева",
+          "count": 2125
+        },
+        {
+          "value": "справа",
+          "count": 1997
+        },
+        {
+          "value": "мужчина",
+          "count": 457
+        },
+        {
+          "value": "женщина",
+          "count": 408
+        },
+        {
+          "value": "стол",
+          "count": 375
+        },
+        {
+          "value": "стул",
+          "count": 334
+        },
+        {
+          "value": "мальчик",
+          "count": 301
+        },
+        {
+          "value": "собака",
+          "count": 241
+        },
+        {
+          "value": "диван",
+          "count": 217
+        },
+        {
+          "value": "кровать",
+          "count": 216
+        },
+        {
+          "value": "девочка",
+          "count": 214
+        },
+        {
+          "value": "лошадь",
+          "count": 184
+        },
+        {
+          "value": "в верхней",
+          "count": 179
+        },
+        {
+          "value": "цвет",
+          "count": 176
+        },
+        {
+          "value": "машина",
+          "count": 172
+        },
+        {
+          "value": "внизу",
+          "count": 169
+        },
+        {
+          "value": "в нижней",
+          "count": 166
+        },
+        {
+          "value": "слон",
+          "count": 160
+        }
+      ],
+      "top_detailed_types": [
+        {
+          "value": "relS",
+          "count": 3982
+        },
+        {
+          "value": "categoryRelS",
+          "count": 3730
+        },
+        {
+          "value": "relO",
+          "count": 3555
+        },
+        {
+          "value": "positionQuery",
+          "count": 1969
+        },
+        {
+          "value": "relChooser",
+          "count": 1660
+        },
+        {
+          "value": "directOf",
+          "count": 1319
+        },
+        {
+          "value": "positionChoose",
+          "count": 1313
+        },
+        {
+          "value": "categoryThat",
+          "count": 1258
+        },
+        {
+          "value": "relVerify",
+          "count": 1160
+        },
+        {
+          "value": "directWhich",
+          "count": 1150
+        },
+        {
+          "value": "existRelS",
+          "count": 1128
+        },
+        {
+          "value": "chooseAttr",
+          "count": 1108
+        },
+        {
+          "value": "existOr",
+          "count": 941
+        },
+        {
+          "value": "relVerifyCo",
+          "count": 932
+        },
+        {
+          "value": "existOrC",
+          "count": 906
+        },
+        {
+          "value": "existRelSC",
+          "count": 801
+        },
+        {
+          "value": "categoryRelO",
+          "count": 771
+        },
+        {
+          "value": "place",
+          "count": 698
+        },
+        {
+          "value": "verifyAttrsC",
+          "count": 502
+        },
+        {
+          "value": "verifyAttrs",
+          "count": 492
+        }
+      ],
+      "top_semantic_types": [
+        {
+          "value": "rel",
+          "count": 18543
+        },
+        {
+          "value": "attr",
+          "count": 12704
+        },
+        {
+          "value": "obj",
+          "count": 4855
+        },
+        {
+          "value": "cat",
+          "count": 2679
+        },
+        {
+          "value": "global",
+          "count": 1219
+        }
+      ],
+      "top_structural_types": [
+        {
+          "value": "query",
+          "count": 20569
+        },
+        {
+          "value": "verify",
+          "count": 8279
+        },
+        {
+          "value": "choose",
+          "count": 5030
+        },
+        {
+          "value": "logical",
+          "count": 4910
+        },
+        {
+          "value": "compare",
+          "count": 1212
+        }
+      ]
+    },
+    "testdev": {
+      "rows": 12216,
+      "unique_question_ids": 12216,
+      "unique_image_ids": 398,
+      "exact_duplicate_rows": 212,
+      "top_answers": [
+        {
+          "value": "да",
+          "count": 2277
+        },
+        {
+          "value": "нет",
+          "count": 2143
+        },
+        {
+          "value": "справа",
+          "count": 321
+        },
+        {
+          "value": "слева",
+          "count": 283
+        },
+        {
+          "value": "женщина",
+          "count": 139
+        },
+        {
+          "value": "стул",
+          "count": 130
+        },
+        {
+          "value": "мужчина",
+          "count": 115
+        },
+        {
+          "value": "стол",
+          "count": 115
+        },
+        {
+          "value": "мальчик",
+          "count": 99
+        },
+        {
+          "value": "диван",
+          "count": 94
+        },
+        {
+          "value": "девочка",
+          "count": 76
+        },
+        {
+          "value": "кровать",
+          "count": 67
+        },
+        {
+          "value": "шкаф",
+          "count": 63
+        },
+        {
+          "value": "дерево",
+          "count": 56
+        },
+        {
+          "value": "маленький",
+          "count": 55
+        },
+        {
+          "value": "белый",
+          "count": 53
+        },
+        {
+          "value": "автомобиль",
+          "count": 53
+        },
+        {
+          "value": "письменный стол",
+          "count": 53
+        },
+        {
+          "value": "клавиатура",
+          "count": 52
+        },
+        {
+          "value": "коричневый",
+          "count": 52
+        }
+      ]
+    },
+    "leakage_checks": {
+      "train_testdev_image_overlap_count": 0,
+      "train_testdev_question_id_overlap_count": 0
+    },
+    "generated_split": {
+      "seed": 42,
+      "validation_fraction": 0.05,
+      "train_images": 26143,
+      "validation_images": 1376,
+      "train_questions": 38018,
+      "validation_questions": 1982,
+      "image_overlap_between_generated_splits": 0
+    }
+  },
+  "mmbench_ru": {
+    "rows": 3910,
+    "unique_indices": 3910,
+    "invalid_answer_count": 0,
+    "answer_distribution": [
+      {
+        "value": "A",
+        "count": 1042
+      },
+      {
+        "value": "B",
+        "count": 1029
+      },
+      {
+        "value": "C",
+        "count": 963
+      },
+      {
+        "value": "D",
+        "count": 876
+      }
+    ],
+    "available_options_distribution": [
+      {
+        "value": "4",
+        "count": 3539
+      },
+      {
+        "value": "3",
+        "count": 215
+      },
+      {
+        "value": "2",
+        "count": 156
+      }
+    ],
+    "top_categories": [
+      {
+        "value": "image_scene",
+        "count": 398
+      },
+      {
+        "value": "celebrity_recognition",
+        "count": 323
+      },
+      {
+        "value": "object_localization",
+        "count": 307
+      },
+      {
+        "value": "function_reasoning",
+        "count": 300
+      },
+      {
+        "value": "attribute_recognition",
+        "count": 229
+      },
+      {
+        "value": "image_style",
+        "count": 210
+      },
+      {
+        "value": "action_recognition",
+        "count": 203
+      },
+      {
+        "value": "image_emotion",
+        "count": 200
+      },
+      {
+        "value": "physical_property_reasoning",
+        "count": 181
+      },
+      {
+        "value": "identity_reasoning",
+        "count": 175
+      },
+      {
+        "value": "spatial_relationship",
+        "count": 174
+      },
+      {
+        "value": "nature_relation",
+        "count": 172
+      },
+      {
+        "value": "social_relation",
+        "count": 172
+      },
+      {
+        "value": "image_quality",
+        "count": 154
+      },
+      {
+        "value": "structuralized_imagetext_understanding",
+        "count": 149
+      },
+      {
+        "value": "ocr",
+        "count": 139
+      },
+      {
+        "value": "image_topic",
+        "count": 125
+      },
+      {
+        "value": "future_prediction",
+        "count": 120
+      },
+      {
+        "value": "attribute_comparison",
+        "count": 103
+      },
+      {
+        "value": "physical_relation",
+        "count": 76
+      }
+    ],
+    "top_l2_categories": [
+      {
+        "value": "coarse_perception",
+        "count": 1087
+      },
+      {
+        "value": "finegrained_perception (instance-level)",
+        "count": 998
+      },
+      {
+        "value": "attribute_reasoning",
+        "count": 656
+      },
+      {
+        "value": "finegrained_perception (cross-instance)",
+        "count": 480
+      },
+      {
+        "value": "relation_reasoning",
+        "count": 420
+      },
+      {
+        "value": "logic_reasoning",
+        "count": 269
+      }
+    ],
+    "top_sources": [
+      {
+        "value": "scienceqa",
+        "count": 329
+      },
+      {
+        "value": "Internet",
+        "count": 241
+      },
+      {
+        "value": "description",
+        "count": 201
+      },
+      {
+        "value": "reasoning",
+        "count": 187
+      },
+      {
+        "value": "COCO train2014",
+        "count": 152
+      },
+      {
+        "value": "COCO_test2015",
+        "count": 128
+      },
+      {
+        "value": "https://www.google.com/maps/@44.3563054,26.1089918,4z?entry=ttu",
+        "count": 128
+      },
+      {
+        "value": "https://www.zhihu.com/question/36417524",
+        "count": 115
+      },
+      {
+        "value": "koniq10k",
+        "count": 92
+      },
+      {
+        "value": "Google",
+        "count": 61
+      },
+      {
+        "value": "internet",
+        "count": 58
+      },
+      {
+        "value": "action/aras",
+        "count": 51
+      },
+      {
+        "value": "PISC",
+        "count": 36
+      },
+      {
+        "value": "scene/places365_val",
+        "count": 32
+      },
+      {
+        "value": "vsr-train2017",
+        "count": 31
+      },
+      {
+        "value": "shapeworld",
+        "count": 30
+      },
+      {
+        "value": "Clevr",
+        "count": 27
+      },
+      {
+        "value": "socialmedia",
+        "count": 24
+      },
+      {
+        "value": "TextVQA test-split",
+        "count": 24
+      },
+      {
+        "value": "https://media.geeksforgeeks.org/wp-content/uploads/20230428112324/maths-formula-chart-05-05-05-copy.webp",
+        "count": 19
+      },
+      {
+        "value": "https://vocabularypoint.com/wp-content/uploads/2022/09/Jobs-and-Occupations-List-with-Pictures.png",
+        "count": 12
+      },
+      {
+        "value": "https://englishgrammarhere.com/wp-content/uploads/2020/03/Jobs-and-Occupations-Names-with-Pictures-in-English.jpg",
+        "count": 12
+      },
+      {
+        "value": "https://cdn1.byjus.com/wp-content/uploads/2019/06/basic-maths-formulas.png",
+        "count": 12
+      },
+      {
+        "value": "https://media.geeksforgeeks.org/wp-content/uploads/20230503180026/maths-formula-chart-3-(1).png",
+        "count": 12
+      },
+      {
+        "value": "https://www.runoob.com/python/python-reg-expressions.html",
+        "count": 12
+      },
+      {
+        "value": "https://i0.wp.com/onlymyenglish.com/wp-content/uploads/jobs-and-occupations.png?w=964&ssl=1",
+        "count": 8
+      },
+      {
+        "value": "https://zhuanlan.zhihu.com/p/374461054",
+        "count": 8
+      },
+      {
+        "value": "https://media.geeksforgeeks.org/wp-content/uploads/20230428112327/maths-formula-chart-06-06-copy.webp",
+        "count": 8
+      },
+      {
+        "value": "https://www.runoob.com/python/python-variable-types.html",
+        "count": 8
+      },
+      {
+        "value": "https://www.w3schools.com/python/trypython.asp?filename=demo_for_continue",
+        "count": 8
+      }
+    ]
+  }
+}

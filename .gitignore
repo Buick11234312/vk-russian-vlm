@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# Virtual environments
+.venv/
+venv/
+
+# macOS
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.idea/
+.vscode/
+
+# Environment variables
+.env
+
+# Model checkpoints and weights
+checkpoints/
+models/
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+
+# Hugging Face cache
+.cache/
+huggingface/
+
+# Experiment tracking
+wandb/
+
+# Temporary files
+tmp/
+temp/
+
+# Large generated results
+results/raw/
+
+# Local datasets
+data/raw/
+data/cache/
+data/processed/
