@@ -1,13 +1,13 @@
 {
   "model_id": "Qwen/Qwen2.5-VL-3B-Instruct",
-  "device": "mps",
+  "device": "cuda",
   "seed": 42,
   "examples": 200,
   "correct": 77,
   "accuracy": 0.385,
-  "total_time_seconds": 241.54666175018065,
-  "mean_latency_seconds": 1.2077333087509032,
-  "estimated_full_eval_hours": 4.098241694361398,
+  "total_time_seconds": 96.32024655863643,
+  "mean_latency_seconds": 0.4816012327931821,
+  "estimated_full_eval_hours": 1.6342335166115314,
   "by_detailed_type": {
     "activityWho": {
       "correct": 0,

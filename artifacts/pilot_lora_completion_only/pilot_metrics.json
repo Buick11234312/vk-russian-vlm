@@ -1,0 +1,16 @@
+{
+  "model_id": "Qwen/Qwen2.5-VL-3B-Instruct",
+  "seed": 42,
+  "train_examples": 512,
+  "validation_examples": 128,
+  "global_step": 64,
+  "train_loss": 0.6505996445193887,
+  "pre_train_eval_loss": 1.1495851278305054,
+  "post_train_eval_loss": 0.5263146162033081,
+  "eval_loss_change": -0.6232705116271973,
+  "train_runtime_seconds": 451.27410298772156,
+  "peak_cuda_memory_gb": 9.669597625732422,
+  "trainable_parameters": 3686400,
+  "vision_trainable_parameters": 0,
+  "loss_scope": "completion_only"
+}

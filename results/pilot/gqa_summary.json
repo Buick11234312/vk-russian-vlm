@@ -1,0 +1,328 @@
+{
+  "model_id": "Qwen/Qwen2.5-VL-3B-Instruct",
+  "adapter_dir": "outputs/pilot_lora",
+  "sample_path": "data/splits/gqa_baseline_sample.json",
+  "examples": 200,
+  "correct": 66,
+  "accuracy": 0.33,
+  "baseline_accuracy": 0.385,
+  "accuracy_delta": -0.05499999999999999,
+  "total_time_seconds": 69.40487494319677,
+  "mean_latency_seconds": 0.34702437471598385,
+  "by_detailed_type": {
+    "activityWho": {
+      "correct": 0,
+      "total": 1,
+      "accuracy": 0.0
+    },
+    "category": {
+      "correct": 2,
+      "total": 3,
+      "accuracy": 0.6666666666666666
+    },
+    "categoryAttr": {
+      "correct": 1,
+      "total": 4,
+      "accuracy": 0.25
+    },
+    "categoryRelO": {
+      "correct": 2,
+      "total": 4,
+      "accuracy": 0.5
+    },
+    "categoryRelOChoose": {
+      "correct": 1,
+      "total": 2,
+      "accuracy": 0.5
+    },
+    "categoryRelS": {
+      "correct": 5,
+      "total": 16,
+      "accuracy": 0.3125
+    },
+    "categoryThat": {
+      "correct": 1,
+      "total": 10,
+      "accuracy": 0.1
+    },
+    "categoryThis": {
+      "correct": 0,
+      "total": 1,
+      "accuracy": 0.0
+    },
+    "chooseAttr": {
+      "correct": 2,
+      "total": 6,
+      "accuracy": 0.3333333333333333
+    },
+    "comparativeChoose": {
+      "correct": 1,
+      "total": 1,
+      "accuracy": 1.0
+    },
+    "diffAnimalsC": {
+      "correct": 0,
+      "total": 1,
+      "accuracy": 0.0
+    },
+    "directOf": {
+      "correct": 3,
+      "total": 7,
+      "accuracy": 0.42857142857142855
+    },
+    "directWhich": {
+      "correct": 1,
+      "total": 3,
+      "accuracy": 0.3333333333333333
+    },
+    "existAnd": {
+      "correct": 1,
+      "total": 1,
+      "accuracy": 1.0
+    },
+    "existAndC": {
+      "correct": 0,
+      "total": 1,
+      "accuracy": 0.0
+    },
+    "existAttr": {
+      "correct": 1,
+      "total": 1,
+      "accuracy": 1.0
+    },
+    "existAttrNotC": {
+      "correct": 0,
+      "total": 1,
+      "accuracy": 0.0
+    },
+    "existAttrOr": {
+      "correct": 1,
+      "total": 1,
+      "accuracy": 1.0
+    },
+    "existAttrOrC": {
+      "correct": 3,
+      "total": 3,
+      "accuracy": 1.0
+    },
+    "existOr": {
+      "correct": 1,
+      "total": 1,
+      "accuracy": 1.0
+    },
+    "existRelS": {
+      "correct": 1,
+      "total": 1,
+      "accuracy": 1.0
+    },
+    "existRelSC": {
+      "correct": 1,
+      "total": 4,
+      "accuracy": 0.25
+    },
+    "existRelSRC": {
+      "correct": 0,
+      "total": 1,
+      "accuracy": 0.0
+    },
+    "existThatOrC": {
+      "correct": 2,
+      "total": 2,
+      "accuracy": 1.0
+    },
+    "how": {
+      "correct": 1,
+      "total": 6,
+      "accuracy": 0.16666666666666666
+    },
+    "material": {
+      "correct": 2,
+      "total": 6,
+      "accuracy": 0.3333333333333333
+    },
+    "materialChoose": {
+      "correct": 0,
+      "total": 1,
+      "accuracy": 0.0
+    },
+    "materialVerifyC": {
+      "correct": 1,
+      "total": 1,
+      "accuracy": 1.0
+    },
+    "place": {
+      "correct": 1,
+      "total": 2,
+      "accuracy": 0.5
+    },
+    "positionChoose": {
+      "correct": 1,
+      "total": 3,
+      "accuracy": 0.3333333333333333
+    },
+    "positionQuery": {
+      "correct": 2,
+      "total": 6,
+      "accuracy": 0.3333333333333333
+    },
+    "relChooser": {
+      "correct": 1,
+      "total": 3,
+      "accuracy": 0.3333333333333333
+    },
+    "relO": {
+      "correct": 1,
+      "total": 20,
+      "accuracy": 0.05
+    },
+    "relS": {
+      "correct": 3,
+      "total": 24,
+      "accuracy": 0.125
+    },
+    "relVerify": {
+      "correct": 3,
+      "total": 4,
+      "accuracy": 0.75
+    },
+    "relVerifyCo": {
+      "correct": 1,
+      "total": 4,
+      "accuracy": 0.25
+    },
+    "relVerifyCr": {
+      "correct": 0,
+      "total": 2,
+      "accuracy": 0.0
+    },
+    "sameMaterialRelate": {
+      "correct": 0,
+      "total": 2,
+      "accuracy": 0.0
+    },
+    "twoCommon": {
+      "correct": 0,
+      "total": 3,
+      "accuracy": 0.0
+    },
+    "twoDifferentC": {
+      "correct": 0,
+      "total": 2,
+      "accuracy": 0.0
+    },
+    "twoSame": {
+      "correct": 1,
+      "total": 2,
+      "accuracy": 0.5
+    },
+    "twoSameC": {
+      "correct": 0,
+      "total": 2,
+      "accuracy": 0.0
+    },
+    "twoSameMaterialC": {
+      "correct": 1,
+      "total": 1,
+      "accuracy": 1.0
+    },
+    "verifyAttr": {
+      "correct": 2,
+      "total": 2,
+      "accuracy": 1.0
+    },
+    "verifyAttrAnd": {
+      "correct": 1,
+      "total": 1,
+      "accuracy": 1.0
+    },
+    "verifyAttrC": {
+      "correct": 1,
+      "total": 1,
+      "accuracy": 1.0
+    },
+    "verifyAttrK": {
+      "correct": 2,
+      "total": 2,
+      "accuracy": 1.0
+    },
+    "verifyAttrKC": {
+      "correct": 1,
+      "total": 2,
+      "accuracy": 0.5
+    },
+    "verifyAttrs": {
+      "correct": 3,
+      "total": 5,
+      "accuracy": 0.6
+    },
+    "verifyAttrsC": {
+      "correct": 6,
+      "total": 15,
+      "accuracy": 0.4
+    },
+    "weather": {
+      "correct": 0,
+      "total": 1,
+      "accuracy": 0.0
+    },
+    "weatherVerify": {
+      "correct": 1,
+      "total": 1,
+      "accuracy": 1.0
+    }
+  },
+  "by_semantic_type": {
+    "attr": {
+      "correct": 31,
+      "total": 78,
+      "accuracy": 0.3974358974358974
+    },
+    "cat": {
+      "correct": 4,
+      "total": 19,
+      "accuracy": 0.21052631578947367
+    },
+    "global": {
+      "correct": 2,
+      "total": 4,
+      "accuracy": 0.5
+    },
+    "obj": {
+      "correct": 10,
+      "total": 12,
+      "accuracy": 0.8333333333333334
+    },
+    "rel": {
+      "correct": 19,
+      "total": 87,
+      "accuracy": 0.21839080459770116
+    }
+  },
+  "by_structural_type": {
+    "choose": {
+      "correct": 5,
+      "total": 15,
+      "accuracy": 0.3333333333333333
+    },
+    "compare": {
+      "correct": 3,
+      "total": 12,
+      "accuracy": 0.25
+    },
+    "logical": {
+      "correct": 18,
+      "total": 30,
+      "accuracy": 0.6
+    },
+    "query": {
+      "correct": 25,
+      "total": 116,
+      "accuracy": 0.21551724137931033
+    },
+    "verify": {
+      "correct": 15,
+      "total": 27,
+      "accuracy": 0.5555555555555556
+    }
+  }
+}
