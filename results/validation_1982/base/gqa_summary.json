@@ -1,0 +1,472 @@
+{
+  "mode": "base",
+  "model_id": "Qwen/Qwen2.5-VL-3B-Instruct",
+  "adapter_dir": null,
+  "sample_path": "data/splits/gqa_train_2000_sample.json",
+  "examples": 1982,
+  "correct": 866,
+  "accuracy": 0.43693239152371344,
+  "total_time_seconds": 458.6588749215007,
+  "mean_latency_seconds": 0.23141214678178643,
+  "by_detailed_type": {
+    "activity": {
+      "correct": 1,
+      "total": 12,
+      "accuracy": 0.08333333333333333
+    },
+    "activityWho": {
+      "correct": 3,
+      "total": 7,
+      "accuracy": 0.42857142857142855
+    },
+    "category": {
+      "correct": 9,
+      "total": 22,
+      "accuracy": 0.4090909090909091
+    },
+    "categoryAttr": {
+      "correct": 1,
+      "total": 7,
+      "accuracy": 0.14285714285714285
+    },
+    "categoryRelO": {
+      "correct": 6,
+      "total": 29,
+      "accuracy": 0.20689655172413793
+    },
+    "categoryRelOChoose": {
+      "correct": 1,
+      "total": 8,
+      "accuracy": 0.125
+    },
+    "categoryRelS": {
+      "correct": 48,
+      "total": 189,
+      "accuracy": 0.25396825396825395
+    },
+    "categoryThat": {
+      "correct": 21,
+      "total": 61,
+      "accuracy": 0.3442622950819672
+    },
+    "categoryThatChoose": {
+      "correct": 12,
+      "total": 13,
+      "accuracy": 0.9230769230769231
+    },
+    "categoryThis": {
+      "correct": 4,
+      "total": 6,
+      "accuracy": 0.6666666666666666
+    },
+    "categoryThisChoose": {
+      "correct": 4,
+      "total": 5,
+      "accuracy": 0.8
+    },
+    "chooseAttr": {
+      "correct": 37,
+      "total": 57,
+      "accuracy": 0.6491228070175439
+    },
+    "comparativeChoose": {
+      "correct": 4,
+      "total": 4,
+      "accuracy": 1.0
+    },
+    "diffAnimals": {
+      "correct": 2,
+      "total": 3,
+      "accuracy": 0.6666666666666666
+    },
+    "dir": {
+      "correct": 1,
+      "total": 1,
+      "accuracy": 1.0
+    },
+    "directOf": {
+      "correct": 14,
+      "total": 65,
+      "accuracy": 0.2153846153846154
+    },
+    "directWhich": {
+      "correct": 15,
+      "total": 64,
+      "accuracy": 0.234375
+    },
+    "exist": {
+      "correct": 13,
+      "total": 14,
+      "accuracy": 0.9285714285714286
+    },
+    "existAnd": {
+      "correct": 29,
+      "total": 33,
+      "accuracy": 0.8787878787878788
+    },
+    "existAndC": {
+      "correct": 15,
+      "total": 19,
+      "accuracy": 0.7894736842105263
+    },
+    "existAttr": {
+      "correct": 1,
+      "total": 1,
+      "accuracy": 1.0
+    },
+    "existAttrC": {
+      "correct": 1,
+      "total": 3,
+      "accuracy": 0.3333333333333333
+    },
+    "existAttrNot": {
+      "correct": 3,
+      "total": 4,
+      "accuracy": 0.75
+    },
+    "existAttrNotC": {
+      "correct": 3,
+      "total": 5,
+      "accuracy": 0.6
+    },
+    "existAttrOr": {
+      "correct": 10,
+      "total": 19,
+      "accuracy": 0.5263157894736842
+    },
+    "existAttrOrC": {
+      "correct": 15,
+      "total": 21,
+      "accuracy": 0.7142857142857143
+    },
+    "existC": {
+      "correct": 8,
+      "total": 10,
+      "accuracy": 0.8
+    },
+    "existMaterial": {
+      "correct": 1,
+      "total": 1,
+      "accuracy": 1.0
+    },
+    "existMaterialNot": {
+      "correct": 1,
+      "total": 1,
+      "accuracy": 1.0
+    },
+    "existMaterialNotC": {
+      "correct": 3,
+      "total": 3,
+      "accuracy": 1.0
+    },
+    "existOr": {
+      "correct": 7,
+      "total": 61,
+      "accuracy": 0.11475409836065574
+    },
+    "existOrC": {
+      "correct": 33,
+      "total": 35,
+      "accuracy": 0.9428571428571428
+    },
+    "existRelS": {
+      "correct": 46,
+      "total": 57,
+      "accuracy": 0.8070175438596491
+    },
+    "existRelSC": {
+      "correct": 21,
+      "total": 34,
+      "accuracy": 0.6176470588235294
+    },
+    "existRelSRC": {
+      "correct": 4,
+      "total": 7,
+      "accuracy": 0.5714285714285714
+    },
+    "existThat": {
+      "correct": 1,
+      "total": 2,
+      "accuracy": 0.5
+    },
+    "existThatC": {
+      "correct": 3,
+      "total": 3,
+      "accuracy": 1.0
+    },
+    "existThatOr": {
+      "correct": 3,
+      "total": 9,
+      "accuracy": 0.3333333333333333
+    },
+    "existThatOrC": {
+      "correct": 8,
+      "total": 9,
+      "accuracy": 0.8888888888888888
+    },
+    "how": {
+      "correct": 12,
+      "total": 20,
+      "accuracy": 0.6
+    },
+    "locationChoose": {
+      "correct": 3,
+      "total": 6,
+      "accuracy": 0.5
+    },
+    "locationVerify": {
+      "correct": 1,
+      "total": 3,
+      "accuracy": 0.3333333333333333
+    },
+    "locationVerifyC": {
+      "correct": 4,
+      "total": 6,
+      "accuracy": 0.6666666666666666
+    },
+    "material": {
+      "correct": 2,
+      "total": 17,
+      "accuracy": 0.11764705882352941
+    },
+    "materialChoose": {
+      "correct": 1,
+      "total": 5,
+      "accuracy": 0.2
+    },
+    "materialVerify": {
+      "correct": 1,
+      "total": 2,
+      "accuracy": 0.5
+    },
+    "objThisChoose": {
+      "correct": 5,
+      "total": 7,
+      "accuracy": 0.7142857142857143
+    },
+    "place": {
+      "correct": 9,
+      "total": 32,
+      "accuracy": 0.28125
+    },
+    "placeChoose": {
+      "correct": 1,
+      "total": 1,
+      "accuracy": 1.0
+    },
+    "positionChoose": {
+      "correct": 32,
+      "total": 71,
+      "accuracy": 0.4507042253521127
+    },
+    "positionQuery": {
+      "correct": 67,
+      "total": 102,
+      "accuracy": 0.6568627450980392
+    },
+    "positionVerify": {
+      "correct": 10,
+      "total": 24,
+      "accuracy": 0.4166666666666667
+    },
+    "positionVerifyC": {
+      "correct": 15,
+      "total": 20,
+      "accuracy": 0.75
+    },
+    "relChooser": {
+      "correct": 46,
+      "total": 83,
+      "accuracy": 0.5542168674698795
+    },
+    "relO": {
+      "correct": 26,
+      "total": 179,
+      "accuracy": 0.1452513966480447
+    },
+    "relS": {
+      "correct": 42,
+      "total": 202,
+      "accuracy": 0.2079207920792079
+    },
+    "relVerify": {
+      "correct": 37,
+      "total": 59,
+      "accuracy": 0.6271186440677966
+    },
+    "relVerifyCo": {
+      "correct": 26,
+      "total": 36,
+      "accuracy": 0.7222222222222222
+    },
+    "relVerifyCr": {
+      "correct": 6,
+      "total": 13,
+      "accuracy": 0.46153846153846156
+    },
+    "sameGender": {
+      "correct": 1,
+      "total": 2,
+      "accuracy": 0.5
+    },
+    "sameGenderC": {
+      "correct": 2,
+      "total": 3,
+      "accuracy": 0.6666666666666666
+    },
+    "sameMaterialRelate": {
+      "correct": 0,
+      "total": 1,
+      "accuracy": 0.0
+    },
+    "sameRelate": {
+      "correct": 0,
+      "total": 4,
+      "accuracy": 0.0
+    },
+    "state": {
+      "correct": 0,
+      "total": 1,
+      "accuracy": 0.0
+    },
+    "twoCommon": {
+      "correct": 0,
+      "total": 7,
+      "accuracy": 0.0
+    },
+    "twoDifferent": {
+      "correct": 1,
+      "total": 9,
+      "accuracy": 0.1111111111111111
+    },
+    "twoDifferentC": {
+      "correct": 7,
+      "total": 12,
+      "accuracy": 0.5833333333333334
+    },
+    "twoSame": {
+      "correct": 1,
+      "total": 3,
+      "accuracy": 0.3333333333333333
+    },
+    "twoSameC": {
+      "correct": 12,
+      "total": 15,
+      "accuracy": 0.8
+    },
+    "twoSameMaterialC": {
+      "correct": 2,
+      "total": 3,
+      "accuracy": 0.6666666666666666
+    },
+    "verifyAttr": {
+      "correct": 10,
+      "total": 12,
+      "accuracy": 0.8333333333333334
+    },
+    "verifyAttrAnd": {
+      "correct": 1,
+      "total": 2,
+      "accuracy": 0.5
+    },
+    "verifyAttrC": {
+      "correct": 10,
+      "total": 14,
+      "accuracy": 0.7142857142857143
+    },
+    "verifyAttrCThis": {
+      "correct": 1,
+      "total": 1,
+      "accuracy": 1.0
+    },
+    "verifyAttrK": {
+      "correct": 15,
+      "total": 17,
+      "accuracy": 0.8823529411764706
+    },
+    "verifyAttrKC": {
+      "correct": 12,
+      "total": 20,
+      "accuracy": 0.6
+    },
+    "verifyAttrThis": {
+      "correct": 1,
+      "total": 2,
+      "accuracy": 0.5
+    },
+    "verifyAttrs": {
+      "correct": 15,
+      "total": 24,
+      "accuracy": 0.625
+    },
+    "verifyAttrsC": {
+      "correct": 17,
+      "total": 27,
+      "accuracy": 0.6296296296296297
+    },
+    "weather": {
+      "correct": 0,
+      "total": 10,
+      "accuracy": 0.0
+    },
+    "weatherVerifyC": {
+      "correct": 0,
+      "total": 1,
+      "accuracy": 0.0
+    }
+  },
+  "by_semantic_type": {
+    "attr": {
+      "correct": 320,
+      "total": 638,
+      "accuracy": 0.5015673981191222
+    },
+    "cat": {
+      "correct": 59,
+      "total": 128,
+      "accuracy": 0.4609375
+    },
+    "global": {
+      "correct": 18,
+      "total": 59,
+      "accuracy": 0.3050847457627119
+    },
+    "obj": {
+      "correct": 159,
+      "total": 255,
+      "accuracy": 0.6235294117647059
+    },
+    "rel": {
+      "correct": 310,
+      "total": 902,
+      "accuracy": 0.3436807095343681
+    }
+  },
+  "by_structural_type": {
+    "choose": {
+      "correct": 142,
+      "total": 256,
+      "accuracy": 0.5546875
+    },
+    "compare": {
+      "correct": 32,
+      "total": 61,
+      "accuracy": 0.5245901639344263
+    },
+    "logical": {
+      "correct": 153,
+      "total": 259,
+      "accuracy": 0.5907335907335908
+    },
+    "query": {
+      "correct": 281,
+      "total": 1031,
+      "accuracy": 0.2725509214354995
+    },
+    "verify": {
+      "correct": 258,
+      "total": 375,
+      "accuracy": 0.688
+    }
+  }
+}
