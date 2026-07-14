@@ -147,6 +147,14 @@ Delta:        +0.1245
 
 Наиболее сильный прирост виден в `obj` и `global`, но улучшение есть и для relation questions, которые остаются более сложным типом вопросов.
 
+
+
+### Held-out validation
+![Validation accuracy scaling](results/figures/validation_accuracy_scaling.png)
+
+### GQA testdev 2000
+![Testdev accuracy scaling](results/figures/testdev_accuracy_scaling.png)
+
 ## Структура репозитория
 
 ```text

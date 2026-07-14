@@ -290,6 +290,15 @@ Paired comparison Base vs E3:
 
 Таким образом, финальная модель улучшила baseline на 12.45 процентных пункта на testdev subset.
 
+
+### 7.1. Графики результатов
+
+Validation accuracy:
+![Validation accuracy scaling](../results/figures/validation_accuracy_scaling.png)
+
+Testdev-2000 accuracy:
+![Testdev accuracy scaling](../results/figures/testdev_accuracy_scaling.png)
+
 ## 8. Анализ по semantic types
 
 На validation split E3 улучшил baseline по всем semantic types.
