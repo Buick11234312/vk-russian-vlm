@@ -1,0 +1,7 @@
+experiment,train_examples,split,accuracy
+Base,0,validation,0.4369
+E2 LoRA,2000,validation,0.5721
+E3 LoRA,8000,validation,0.5984
+Base,0,testdev_2000,0.402
+E1 LoRA,512,testdev_2000,0.4455
+E3 LoRA,8000,testdev_2000,0.5265
